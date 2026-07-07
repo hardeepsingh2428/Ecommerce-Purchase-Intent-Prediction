@@ -1,0 +1,19 @@
+{
+  "Month": {
+    "Aug": 0,
+    "Dec": 1,
+    "Feb": 2,
+    "Jul": 3,
+    "June": 4,
+    "Mar": 5,
+    "May": 6,
+    "Nov": 7,
+    "Oct": 8,
+    "Sep": 9
+  },
+  "VisitorType": {
+    "New_Visitor": 0,
+    "Other": 1,
+    "Returning_Visitor": 2
+  }
+}

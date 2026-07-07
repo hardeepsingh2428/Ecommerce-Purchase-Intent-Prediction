@@ -1,0 +1,194 @@
+# 🛒 Ecommerce Purchase Intent Prediction
+
+## 📌 Project Overview
+
+This project predicts whether an online customer session will result in a purchase using Machine Learning.
+
+The application combines a Random Forest Classifier with a FastAPI backend and an interactive Streamlit dashboard to deliver real-time purchase predictions along with model explainability using SHAP and LIME.
+
+---
+
+# 🚀 Features
+
+- Real-time purchase prediction
+- FastAPI REST API
+- Interactive Streamlit Dashboard
+- Prediction history
+- Analytics dashboard
+- Model performance comparison
+- SHAP Feature Importance
+- SHAP Local Explanation
+- MLflow Experiment Tracking
+- Download prediction history
+- Production-ready project structure
+
+---
+
+# 🛠 Tech Stack
+
+## Programming Language
+
+- Python
+
+## Machine Learning
+
+- Scikit-learn
+- Random Forest Classifier
+
+## Data Analysis
+
+- Pandas
+- NumPy
+
+## Visualization
+
+- Matplotlib
+- Plotly
+- SHAP
+- LIME
+
+## Backend
+
+- FastAPI
+- Uvicorn
+
+## Frontend
+
+- Streamlit
+
+## Experiment Tracking
+
+- MLflow
+
+---
+
+# 📊 Model Performance
+
+| Metric | Score |
+|---------|---------|
+| Accuracy | 93.17% |
+| Precision | 81.23% |
+| Recall | 73.47% |
+| F1 Score | 77.16% |
+| ROC-AUC | 96.91% |
+
+---
+
+# 📁 Project Structure
+
+```
+dashboard/
+data/
+docs/
+images/
+mlruns/
+models/
+notebooks/
+reports/
+src/
+requirements.txt
+README.md
+```
+
+---
+
+# ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate environment
+
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶ Run FastAPI
+
+```bash
+uvicorn src.api.main:app --reload
+```
+
+---
+
+# ▶ Run Streamlit Dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+---
+
+# 📈 Dashboard Features
+
+- Purchase Prediction
+- API Status
+- Prediction History
+- Analytics Dashboard
+- Model Performance
+- SHAP Explainability
+- LIME Local Explanation
+
+---
+
+# 🧠 Explainable AI
+
+This project includes:
+
+- SHAP Summary Plot
+- SHAP Feature Importance
+- LIME Local Explanation
+
+These techniques help explain why the model predicts a purchase.
+
+---
+
+# 📊 MLflow
+
+The project uses MLflow for:
+
+- Experiment Tracking
+- Parameter Logging
+- Metric Logging
+- Model Artifact Storage
+
+---
+
+# 📌 Future Improvements
+
+- Docker Support
+- Cloud Deployment
+- User Authentication
+- Batch Prediction API
+- CI/CD Pipeline
+
+---
+
+# 👨‍💻 Author
+
+**Hardeep Singh**
+
+Aspiring Data Analyst | Machine Learning Enthusiast
+
+---
+
+⭐ If you like this project, consider giving it a star.
