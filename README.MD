@@ -1,5 +1,7 @@
 # 🛒 Ecommerce Purchase Intent Prediction
 
+> End-to-End Machine Learning Project for predicting customer purchase intent using Explainable AI, FastAPI, Streamlit, and MLflow.
+
 ## 📌 Project Overview
 
 This project predicts whether an online customer session will result in a purchase using Machine Learning.
