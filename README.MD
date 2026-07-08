@@ -64,6 +64,14 @@ The application combines a Random Forest Classifier with a FastAPI backend and a
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?logo=streamlit)
+![MLflow](https://img.shields.io/badge/MLflow-Experiment%20Tracking-blue)
+![SHAP](https://img.shields.io/badge/SHAP-Explainable%20AI-purple)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # 📊 Model Performance
 
 | Metric | Score |
