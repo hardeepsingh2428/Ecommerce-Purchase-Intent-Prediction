@@ -71,23 +71,41 @@ Being able to predict customer purchase intent enables businesses to:
 | ⭐ Random Forest | **93.17%** | **81.23%** | **73.47%** | **77.16%** | **96.91%** |
 ---
 
-# 📁 Project Structure
+## 📂 Project Structure
 
+```text
+Ecommerce-Purchase-Intent-Prediction/
+│
+├── dashboard/                # Streamlit dashboard
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── data_dictionary.csv
+│
+├── docs/                     # Documentation
+├── images/                   # README screenshots
+├── models/
+│   ├── best_random_forest.pkl
+│   ├── scaler.pkl
+│   ├── label_encoders.pkl
+│   └── feature_columns.json
+│
+├── notebooks/
+│   ├── 01_Data_Preprocessing.ipynb
+│   ├── 02_EDA.ipynb
+│   ├── 03_Model_Training.ipynb
+│   ├── 04_Model_Explainability.ipynb
+│   └── 05_Deployment.ipynb
+│
+├── src/
+│   ├── api/
+│   ├── models/
+│   └── utils/
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
-dashboard/
-data/
-docs/
-images/
-mlruns/
-models/
-notebooks/
-reports/
-src/
-requirements.txt
-README.md
-```
-
----
 
 # ⚙ Installation
 
@@ -179,6 +197,17 @@ The project uses MLflow for:
 - CI/CD Pipeline
 
 ---
+## 📈 Key Results
+
+- Dataset containing 12,000 customer sessions
+- Compared multiple classification algorithms
+- Random Forest selected as the final model
+- Accuracy: **93.17%**
+- ROC-AUC: **96.91%**
+- Interactive prediction dashboard built with Streamlit
+- REST API developed using FastAPI
+- Model explainability using SHAP
+- Experiment tracking with MLflow
 
 # 👨‍💻 Author
 
