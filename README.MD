@@ -10,6 +10,18 @@ The application combines a Random Forest Classifier with a FastAPI backend and a
 
 ---
 
+## 🎯 Business Problem
+
+E-commerce businesses receive thousands of visitors every day, but only a small percentage complete a purchase.
+
+Being able to predict customer purchase intent enables businesses to:
+
+- Improve conversion rates
+- Personalize customer experiences
+- Target marketing campaigns effectively
+- Reduce advertising costs
+- Increase overall revenue
+
 # 🚀 Features
 
 - Real-time purchase prediction
@@ -26,41 +38,19 @@ The application combines a Random Forest Classifier with a FastAPI backend and a
 
 ---
 
-# 🛠 Tech Stack
+## 🛠 Technology Stack
 
-## Programming Language
-
-- Python
-
-## Machine Learning
-
-- Scikit-learn
-- Random Forest Classifier
-
-## Data Analysis
-
-- Pandas
-- NumPy
-
-## Visualization
-
-- Matplotlib
-- Plotly
-- SHAP
-- LIME
-
-## Backend
-
-- FastAPI
-- Uvicorn
-
-## Frontend
-
-- Streamlit
-
-## Experiment Tracking
-
-- MLflow
+| Category | Tools |
+|-----------|------|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Plotly |
+| Machine Learning | Scikit-Learn |
+| Explainable AI | SHAP |
+| API | FastAPI |
+| Dashboard | Streamlit |
+| Experiment Tracking | MLflow |
+| Version Control | Git & GitHub |
 
 ---
 
@@ -72,16 +62,13 @@ The application combines a Random Forest Classifier with a FastAPI backend and a
 ![SHAP](https://img.shields.io/badge/SHAP-Explainable%20AI-purple)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-# 📊 Model Performance
+## 📊 Model Performance
 
-| Metric | Score |
-|---------|---------|
-| Accuracy | 93.17% |
-| Precision | 81.23% |
-| Recall | 73.47% |
-| F1 Score | 77.16% |
-| ROC-AUC | 96.91% |
-
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|------|---------:|----------:|--------:|---------:|---------:|
+| Logistic Regression | 92.96% | 83.99% | 68.17% | 75.26% | 96.27% |
+| Decision Tree | 89.25% | 65.62% | 66.31% | 65.96% | 79.92% |
+| ⭐ Random Forest | **93.17%** | **81.23%** | **73.47%** | **77.16%** | **96.91%** |
 ---
 
 # 📁 Project Structure
