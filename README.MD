@@ -209,11 +209,20 @@ The project uses MLflow for:
 - Model explainability using SHAP
 - Experiment tracking with MLflow
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Hardeep Singh**
 
-Aspiring Data Analyst | Machine Learning Enthusiast
+MBA – Data Science & Artificial Intelligence
+
+Chandigarh University
+
+LinkedIn:
+www.linkedin.com/in/hardeep-singh-282653322
+
+GitHub:
+https://github.com/hardeepsingh2428**
+
 
 ---
 
