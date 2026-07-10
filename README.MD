@@ -48,21 +48,51 @@ It showcases practical industry skills including:
 
 ## 📸 Dashboard Preview
 
-| Home | Prediction |
-|------|------------|
-| ![](images/screenshots/home.png) | ![](images/screenshots/prediction.png) |
+<table>
+<tr>
+<td align="center" width="50%">
+<b>🏠 Home Dashboard</b><br><br>
+<img src="./images/screenshots/home.png" width="100%">
+</td>
 
-| History | SHAP Summary |
-|------|------------|
-| ![](images/screenshots/history.png) | ![](images/screenshots/shap_summary_plot.png) |
+<td align="center" width="50%">
+<b>🎯 Purchase Prediction</b><br><br>
+<img src="./images/screenshots/prediction.png" width="100%">
+</td>
+</tr>
 
-| SHAP Importance | SHAP Local |
-|------|------------|
-| ![](images/screenshots/shap_feature_importance.png) | ![](images/screenshots/shap_local_explanation.png) |
+<tr>
+<td align="center">
+<b>📜 Prediction History</b><br><br>
+<img src="./images/screenshots/history.png" width="100%">
+</td>
 
-### 🟢 LIME Local Explanation
+<td align="center">
+<b>📊 SHAP Summary Plot</b><br><br>
+<img src="./images/screenshots/shap_summary_plot.png" width="100%">
+</td>
+</tr>
 
-![](images/screenshots/lime.png)
+<tr>
+<td align="center">
+<b>⭐ SHAP Feature Importance</b><br><br>
+<img src="./images/screenshots/shap_feature_importance.png" width="100%">
+</td>
+
+<td align="center">
+<b>🔍 SHAP Local Explanation</b><br><br>
+<img src="./images/screenshots/shap_local_explanation.png" width="100%">
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+<b>🟢 LIME Local Explanation</b><br><br>
+<img src="./images/screenshots/lime.png" width="90%">
+</td>
+</tr>
+
+</table>
 ---
 
 # ✨ Features
