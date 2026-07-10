@@ -9,48 +9,47 @@ This project predicts whether an online customer session will result in a purcha
 The application combines a Random Forest Classifier with a FastAPI backend and an interactive Streamlit dashboard to deliver real-time purchase predictions along with model explainability using SHAP and LIME.
 
 ---
-
 # 📸 Dashboard Preview
 
 ## 🏠 Home Dashboard
 
-![Home](images/screenshots/Home.png)
+![Home](images/screenshots/home.png)
 
 ---
 
 ## 🎯 Purchase Prediction
 
-![Prediction](images/screenshots/Prediction.png)
+![Prediction](images/screenshots/prediction.png)
 
 ---
 
 ## 📜 Prediction History
 
-![History](images/screenshots/History.png)
+![History](images/screenshots/history.png)
 
 ---
 
 ## 📊 SHAP Summary Plot
 
-![SHAP Summary](images/screenshots/Shap%20summary%20plot.png)
+![SHAP Summary](images/screenshots/shap_summary_plot.png)
 
 ---
 
 ## ⭐ SHAP Feature Importance
 
-![SHAP Feature Importance](images/screenshots/Shap%20feature%20importance.png)
+![SHAP Feature Importance](images/screenshots/shap_feature_importance.png)
 
 ---
 
 ## 🔍 SHAP Local Explanation
 
-![SHAP Local Explanation](images/screenshots/Shap%20local%20explanation.png)
+![SHAP Local Explanation](images/screenshots/shap_local_explanation.png)
 
 ---
 
 ## 🟢 LIME Local Explanation
 
-![LIME](images/screenshots/Lime.png)
+![LIME](images/screenshots/lime.png)
 
 ---
 ## 🎯 Business Problem
