@@ -10,6 +10,49 @@ The application combines a Random Forest Classifier with a FastAPI backend and a
 
 ---
 
+# 📸 Dashboard Preview
+
+## 🏠 Home Dashboard
+
+![Home](images/screenshots/Home.png)
+
+---
+
+## 🎯 Purchase Prediction
+
+![Prediction](images/screenshots/Prediction.png)
+
+---
+
+## 📜 Prediction History
+
+![History](images/screenshots/History.png)
+
+---
+
+## 📊 SHAP Summary Plot
+
+![SHAP Summary](images/screenshots/Shap%20summary%20plot.png)
+
+---
+
+## ⭐ SHAP Feature Importance
+
+![SHAP Feature Importance](images/screenshots/Shap%20feature%20importance.png)
+
+---
+
+## 🔍 SHAP Local Explanation
+
+![SHAP Local Explanation](images/screenshots/Shap%20local%20explanation.png)
+
+---
+
+## 🟢 LIME Local Explanation
+
+![LIME](images/screenshots/Lime.png)
+
+---
 ## 🎯 Business Problem
 
 E-commerce businesses receive thousands of visitors every day, but only a small percentage complete a purchase.
