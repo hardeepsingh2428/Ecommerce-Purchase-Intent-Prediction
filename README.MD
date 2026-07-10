@@ -44,32 +44,43 @@ It showcases practical industry skills including:
 - Experiment Tracking
 - Production-ready Project Structure
 
----
-## 📸 Dashboard Preview
+---## 📸 Dashboard Preview
 
 ### 🏠 Home Dashboard
 
 ![](images/screenshots/home.png)
 
+---
+
 ### 🎯 Purchase Prediction
 
 ![](images/screenshots/prediction.png)
+
+---
 
 ### 📜 Prediction History
 
 ![](images/screenshots/history.png)
 
+---
+
 ### 📊 SHAP Summary Plot
 
 ![](images/screenshots/shap_summary_plot.png)
+
+---
 
 ### ⭐ SHAP Feature Importance
 
 ![](images/screenshots/shap_feature_importance.png)
 
+---
+
 ### 🔍 SHAP Local Explanation
 
 ![](images/screenshots/shap_local_explanation.png)
+
+---
 
 ### 🟢 LIME Local Explanation
 
