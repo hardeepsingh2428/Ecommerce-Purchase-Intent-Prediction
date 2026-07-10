@@ -1,160 +1,219 @@
+<div align="center">
+
 # 🛒 Ecommerce Purchase Intent Prediction
 
-> End-to-End Machine Learning Project for predicting customer purchase intent using Explainable AI, FastAPI, Streamlit, and MLflow.
+### End-to-End Machine Learning Project using Random Forest, FastAPI, Streamlit, SHAP, LIME & MLflow
 
-## 📌 Project Overview
-
-This project predicts whether an online customer session will result in a purchase using Machine Learning.
-
-The application combines a Random Forest Classifier with a FastAPI backend and an interactive Streamlit dashboard to deliver real-time purchase predictions along with model explainability using SHAP and LIME.
-
----
-# 📸 Dashboard Preview
-
-## 🏠 Home Dashboard
-
-![Home](images/screenshots/home.png)
-
----
-
-## 🎯 Purchase Prediction
-
-![Prediction](images/screenshots/prediction.png)
-
----
-
-## 📜 Prediction History
-
-![History](images/screenshots/history.png)
-
----
-
-## 📊 SHAP Summary Plot
-
-![SHAP Summary](images/screenshots/shap_summary_plot.png)
-
----
-
-## ⭐ SHAP Feature Importance
-
-![SHAP Feature Importance](images/screenshots/shap_feature_importance.png)
-
----
-
-## 🔍 SHAP Local Explanation
-
-![SHAP Local Explanation](images/screenshots/shap_local_explanation.png)
-
----
-
-## 🟢 LIME Local Explanation
-
-![LIME](images/screenshots/lime.png)
-
----
-## 🎯 Business Problem
-
-E-commerce businesses receive thousands of visitors every day, but only a small percentage complete a purchase.
-
-Being able to predict customer purchase intent enables businesses to:
-
-- Improve conversion rates
-- Personalize customer experiences
-- Target marketing campaigns effectively
-- Reduce advertising costs
-- Increase overall revenue
-
-# 🚀 Features
-
-- Real-time purchase prediction
-- FastAPI REST API
-- Interactive Streamlit Dashboard
-- Prediction history
-- Analytics dashboard
-- Model performance comparison
-- SHAP Feature Importance
-- SHAP Local Explanation
-- MLflow Experiment Tracking
-- Download prediction history
-- Production-ready project structure
-
----
-
-## 🛠 Technology Stack
-
-| Category | Tools |
-|-----------|------|
-| Programming | Python |
-| Data Analysis | Pandas, NumPy |
-| Visualization | Matplotlib, Plotly |
-| Machine Learning | Scikit-Learn |
-| Explainable AI | SHAP |
-| API | FastAPI |
-| Dashboard | Streamlit |
-| Experiment Tracking | MLflow |
-| Version Control | Git & GitHub |
-
----
+Predict whether an online customer session will result in a purchase using Explainable Artificial Intelligence.
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
-![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?logo=scikitlearn)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?logo=fastapi)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?logo=streamlit)
 ![MLflow](https://img.shields.io/badge/MLflow-Experiment%20Tracking-blue)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainable%20AI-purple)
+![LIME](https://img.shields.io/badge/LIME-Local%20Explainability-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## 📊 Model Performance
+</div>
+
+---
+
+# 📌 Project Overview
+
+E-commerce businesses receive thousands of visitors every day, but only a small percentage complete a purchase.
+
+This project predicts whether an online customer session will result in a purchase by leveraging Machine Learning and Explainable AI. The solution includes a production-style FastAPI backend, an interactive Streamlit dashboard, SHAP and LIME explainability, and MLflow experiment tracking.
+
+---
+
+# 💼 Why This Project?
+
+This project demonstrates an end-to-end Machine Learning workflow from data preprocessing to deployment.
+
+It showcases practical industry skills including:
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Model Training
+- Hyperparameter Optimization
+- Explainable AI
+- REST API Development
+- Interactive Dashboard Development
+- Experiment Tracking
+- Production-ready Project Structure
+
+---
+
+# 📸 Dashboard Preview
+
+<table>
+
+<tr>
+<td align="center"><b>🏠 Home Dashboard</b></td>
+<td align="center"><b>🎯 Purchase Prediction</b></td>
+</tr>
+
+<tr>
+<td>
+<img src="images/screenshots/home.png">
+</td>
+
+<td>
+<img src="images/screenshots/prediction.png">
+</td>
+</tr>
+
+<tr>
+<td align="center"><b>📜 Prediction History</b></td>
+<td align="center"><b>📊 SHAP Summary Plot</b></td>
+</tr>
+
+<tr>
+<td>
+<img src="images/screenshots/history.png">
+</td>
+
+<td>
+<img src="images/screenshots/shap_summary_plot.png">
+</td>
+</tr>
+
+<tr>
+<td align="center"><b>⭐ SHAP Feature Importance</b></td>
+<td align="center"><b>🔍 SHAP Local Explanation</b></td>
+</tr>
+
+<tr>
+<td>
+<img src="images/screenshots/shap_feature_importance.png">
+</td>
+
+<td>
+<img src="images/screenshots/shap_local_explanation.png">
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center">
+
+### 🟢 LIME Local Explanation
+
+<img src="images/screenshots/lime.png">
+
+</td>
+</tr>
+
+</table>
+
+---
+
+# ✨ Features
+
+- ✅ Real-time Purchase Prediction
+- ✅ FastAPI REST API
+- ✅ Interactive Streamlit Dashboard
+- ✅ Prediction History
+- ✅ Analytics Dashboard
+- ✅ Random Forest Classifier
+- ✅ SHAP Explainability
+- ✅ LIME Local Explanations
+- ✅ MLflow Experiment Tracking
+- ✅ Download Prediction History
+- ✅ Production-ready Project Structure
+
+---
+
+# 📊 Model Performance
 
 | Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
 |------|---------:|----------:|--------:|---------:|---------:|
 | Logistic Regression | 92.96% | 83.99% | 68.17% | 75.26% | 96.27% |
 | Decision Tree | 89.25% | 65.62% | 66.31% | 65.96% | 79.92% |
 | ⭐ Random Forest | **93.17%** | **81.23%** | **73.47%** | **77.16%** | **96.91%** |
+
 ---
 
-## 📂 Project Structure
+# 🏆 Project Highlights
+
+- End-to-End Machine Learning Pipeline
+- Random Forest selected as the final model
+- FastAPI Backend
+- Streamlit Dashboard
+- SHAP Explainability
+- LIME Explainability
+- MLflow Integration
+- Interactive Analytics Dashboard
+- Production-ready Folder Structure
+
+---
+
+# 🛠 Technology Stack
+
+| Category | Technologies |
+|-----------|-------------|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Plotly |
+| Machine Learning | Scikit-Learn |
+| Explainability | SHAP, LIME |
+| Backend | FastAPI |
+| Frontend | Streamlit |
+| Experiment Tracking | MLflow |
+| Version Control | Git & GitHub |
+
+---
+
+# 📂 Project Structure
 
 ```text
 Ecommerce-Purchase-Intent-Prediction/
 │
-├── dashboard/                # Streamlit dashboard
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── data_dictionary.csv
+├── dashboard/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── utils/
+│   ├── app.py
 │
-├── docs/                     # Documentation
-├── images/                   # README screenshots
+├── data/
+│
+├── docs/
+│
+├── images/
+│   └── screenshots/
+│
+├── mlruns/
+│
 ├── models/
-│   ├── best_random_forest.pkl
-│   ├── scaler.pkl
-│   ├── label_encoders.pkl
-│   └── feature_columns.json
 │
 ├── notebooks/
-│   ├── 01_Data_Preprocessing.ipynb
-│   ├── 02_EDA.ipynb
-│   ├── 03_Model_Training.ipynb
-│   ├── 04_Model_Explainability.ipynb
-│   └── 05_Deployment.ipynb
+│
+├── reports/
 │
 ├── src/
-│   ├── api/
-│   ├── models/
-│   └── utils/
+│   └── api/
 │
-├── .gitignore
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── LICENSE
 ```
 
-# ⚙ Installation
+---
+
+# ⚙️ Installation
 
 Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/hardeepsingh2428/Ecommerce-Purchase-Intent-Prediction.git
+```
+
+Move into the project
+
+```bash
+cd Ecommerce-Purchase-Intent-Prediction
 ```
 
 Create virtual environment
@@ -163,12 +222,18 @@ Create virtual environment
 python -m venv venv
 ```
 
-Activate environment
+Activate virtual environment
 
 Windows
 
 ```bash
 venv\Scripts\activate
+```
+
+Linux / macOS
+
+```bash
+source venv/bin/activate
 ```
 
 Install dependencies
@@ -179,15 +244,23 @@ pip install -r requirements.txt
 
 ---
 
-# ▶ Run FastAPI
+# 🚀 Running the Project
+
+## Start FastAPI
 
 ```bash
 uvicorn src.api.main:app --reload
 ```
 
+API Documentation
+
+```
+http://127.0.0.1:8000/docs
+```
+
 ---
 
-# ▶ Run Streamlit Dashboard
+## Start Streamlit Dashboard
 
 ```bash
 streamlit run dashboard/app.py
@@ -195,38 +268,34 @@ streamlit run dashboard/app.py
 
 ---
 
-# 📈 Dashboard Features
-
-- Purchase Prediction
-- API Status
-- Prediction History
-- Analytics Dashboard
-- Model Performance
-- SHAP Explainability
-- LIME Local Explanation
-
----
-
 # 🧠 Explainable AI
 
-This project includes:
+The application includes multiple Explainable AI techniques.
+
+## SHAP
 
 - SHAP Summary Plot
-- SHAP Feature Importance
-- LIME Local Explanation
+- Feature Importance
+- Local Explanation
 
-These techniques help explain why the model predicts a purchase.
+## LIME
+
+- Local Prediction Explanation
+- Individual Prediction Interpretation
+
+These techniques make model predictions transparent and trustworthy.
 
 ---
 
-# 📊 MLflow
+# 📈 MLflow
 
 The project uses MLflow for:
 
 - Experiment Tracking
 - Parameter Logging
 - Metric Logging
-- Model Artifact Storage
+- Artifact Storage
+- Model Comparison
 
 ---
 
@@ -234,38 +303,47 @@ The project uses MLflow for:
 
 - Docker Support
 - Cloud Deployment
+- CI/CD Pipeline
 - User Authentication
 - Batch Prediction API
-- CI/CD Pipeline
-
----
-## 📈 Key Results
-
-- Dataset containing 12,000 customer sessions
-- Compared multiple classification algorithms
-- Random Forest selected as the final model
-- Accuracy: **93.17%**
-- ROC-AUC: **96.91%**
-- Interactive prediction dashboard built with Streamlit
-- REST API developed using FastAPI
-- Model explainability using SHAP
-- Experiment tracking with MLflow
-
-## 👨‍💻 Author
-
-**Hardeep Singh**
-
-MBA – Data Science & Artificial Intelligence
-
-Chandigarh University
-
-LinkedIn:
-www.linkedin.com/in/hardeep-singh-282653322
-
-GitHub:
-https://github.com/hardeepsingh2428**
-
+- Kubernetes Deployment
 
 ---
 
-⭐ If you like this project, consider giving it a star.
+# 🌐 Live Demo
+
+**Streamlit Dashboard**
+
+Coming Soon
+
+**FastAPI API**
+
+Coming Soon
+
+---
+
+# 👨‍💻 Author
+
+## Hardeep Singh
+
+**MBA – Data Science & Artificial Intelligence**
+
+**Chandigarh University**
+
+### Connect with me
+
+**LinkedIn**
+
+https://www.linkedin.com/in/hardeep-singh-282653322
+
+**GitHub**
+
+https://github.com/hardeepsingh2428
+
+---
+
+<div align="center">
+
+⭐ If you found this project useful, consider giving it a star.
+
+</div>
