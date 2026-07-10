@@ -45,54 +45,36 @@ It showcases practical industry skills including:
 - Production-ready Project Structure
 
 ---
-
 ## 📸 Dashboard Preview
 
-<table>
-<tr>
-<td align="center" width="50%">
-<b>🏠 Home Dashboard</b><br><br>
-<img src="./images/screenshots/home.png" width="100%">
-</td>
+### 🏠 Home Dashboard
 
-<td align="center" width="50%">
-<b>🎯 Purchase Prediction</b><br><br>
-<img src="./images/screenshots/prediction.png" width="100%">
-</td>
-</tr>
+![](images/screenshots/home.png)
 
-<tr>
-<td align="center">
-<b>📜 Prediction History</b><br><br>
-<img src="./images/screenshots/history.png" width="100%">
-</td>
+### 🎯 Purchase Prediction
 
-<td align="center">
-<b>📊 SHAP Summary Plot</b><br><br>
-<img src="./images/screenshots/shap_summary_plot.png" width="100%">
-</td>
-</tr>
+![](images/screenshots/prediction.png)
 
-<tr>
-<td align="center">
-<b>⭐ SHAP Feature Importance</b><br><br>
-<img src="./images/screenshots/shap_feature_importance.png" width="100%">
-</td>
+### 📜 Prediction History
 
-<td align="center">
-<b>🔍 SHAP Local Explanation</b><br><br>
-<img src="./images/screenshots/shap_local_explanation.png" width="100%">
-</td>
-</tr>
+![](images/screenshots/history.png)
 
-<tr>
-<td colspan="2" align="center">
-<b>🟢 LIME Local Explanation</b><br><br>
-<img src="./images/screenshots/lime.png" width="90%">
-</td>
-</tr>
+### 📊 SHAP Summary Plot
 
-</table>
+![](images/screenshots/shap_summary_plot.png)
+
+### ⭐ SHAP Feature Importance
+
+![](images/screenshots/shap_feature_importance.png)
+
+### 🔍 SHAP Local Explanation
+
+![](images/screenshots/shap_local_explanation.png)
+
+### 🟢 LIME Local Explanation
+
+![](images/screenshots/lime.png)
+
 ---
 
 # ✨ Features
